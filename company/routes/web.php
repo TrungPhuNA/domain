@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('name', function(){
+    return "Phan Trung Phú";
+});
+
+Route::get('old', function(){
+    return 25;
+});
+
+Route::get('view','HomeController@getView')->name('get.view');

@@ -1,0 +1,7 @@
+location /company {
+   # Root for this sub project
+   root /var/www/domain/company/public;
+    # Rewrite $uri=/api/v1/xyz back to just $uri=/xyz
+    rewrite ^/api/v1/(.*)$ /$1 break;
+    try_files $uri $uri/ /index.php?$args;
+}
