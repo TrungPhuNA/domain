@@ -52,8 +52,8 @@ return [
     |
     */
     
-    // 'url' => env('APP_URL', 'http://localhost'),
-    'url' => 'https://123job.codethue.net/',
+    'url' => env('APP_URL', 'http://localhost'),
+    // 'url' => 'https://123job.codethue.net/', // dung
 
     'asset_url' => env('ASSET_URL', null),
 
