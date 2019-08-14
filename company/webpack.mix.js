@@ -11,5 +11,8 @@ const mix = require('laravel-mix');
  |
  */
 
+let directory_asset = 'company';
+mix.setPublicPath(path.normalize(directory_asset));
+
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/company.scss', 'public/css');
