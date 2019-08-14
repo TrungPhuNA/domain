@@ -85,6 +85,7 @@
         <div class="links">
             <a href="{{ route('get.test') }}">Test</a>
             <a href="{{ route('get.job') }}">Job</a>
+            <a href="/company" target="_blank">Company</a>
         </div>
     </div>
 </div>
