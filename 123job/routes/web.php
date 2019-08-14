@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/job','JobController@index')->name('get.job');
+Route::get('/test','JobController@test')->name('get.test');
+
 Route::get('hello', function() {
     return url()->full();
 });

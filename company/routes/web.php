@@ -24,3 +24,5 @@ Route::get('old', function(){
 });
 
 Route::get('view','HomeController@getView')->name('get.view');
+Route::get('job','HomeController@getJob')->name('get.job');
+Route::get('test','HomeController@getTest')->name('get.test');
